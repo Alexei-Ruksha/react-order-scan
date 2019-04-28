@@ -18,8 +18,11 @@
     "test": "react-scripts test"
   },
   "dependencies": {
+    "classnames": "^2.2.6",
     "electron-is-dev": "^0.3.0",
     "electron-publisher-s3": "^20.17.2",
+    "primereact": "^3.1.2",
+    "primeicons": "^1.0.0",
     "react": "^16.8.1",
     "react-dev-utils": "^5.0.1",
     "react-dom": "^16.8.1"
@@ -29,11 +32,11 @@
     "cross-env": "^5.2.0",
     "electron": "^2.0.3",
     "electron-builder": "^20.18.0",
+    "electron-devtools-installer": "^2.2.4",
     "gh-pages": "^2.0.1",
     "react-scripts": "1.1.4",
-    "wait-on": "^3.2.0",
-    "electron-devtools-installer": "^2.2.4",
-    "version-bump-prompt": "^4.1.0"
+    "version-bump-prompt": "^4.1.0",
+    "wait-on": "^3.2.0"
   },
   "eslintConfig": {
     "extends": "react-app"
